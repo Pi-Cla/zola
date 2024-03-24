@@ -45,7 +45,7 @@ use libs::percent_encoding;
 use libs::relative_path::{RelativePath, RelativePathBuf};
 use libs::serde_json;
 use notify::{watcher, RecursiveMode, Watcher};
-use ws::{Message, Sender, WebSocket};
+use parity_ws::{Message, Sender, WebSocket};
 
 use errors::{anyhow, Context, Error, Result};
 use pathdiff::diff_paths;
